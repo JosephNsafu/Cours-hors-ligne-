@@ -1,0 +1,21 @@
+COURS HORS LIGNE - mode d'emploi
+
+TESTER SUR ORDINATEUR (le plus simple)
+1. Décompressez le dossier.
+2. Double-cliquez sur index.html : l'application s'ouvre dans le navigateur.
+   (Le mode "installation hors ligne" ne marche que depuis un site web, voir plus bas.)
+
+TESTER SUR TÉLÉPHONE SANS INTERNET
+- Copiez le dossier sur le téléphone (câble, carte SD, Xender),
+  puis ouvrez index.html avec Chrome. Les leçons et quiz fonctionnent sans connexion.
+
+INSTALLER L'APPLICATION (hors ligne complet)
+1. Mettez le dossier sur un hébergement gratuit (GitHub Pages, Netlify).
+2. Ouvrez le lien une fois avec internet, dans Chrome.
+3. Menu ⋮ → "Installer l'application" / "Ajouter à l'écran d'accueil".
+4. Ensuite, elle s'ouvre sans internet.
+
+AJOUTER DES LEÇONS
+Ouvrez lecons.js avec un éditeur de texte (Bloc-notes) et copiez un bloc
+{ id, matiere, titre, texte, quiz:[...] } en changeant le contenu.
+Pensez à changer CACHE="cours-hors-ligne-v1" en v2 dans sw.js après chaque mise à jour.
